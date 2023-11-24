@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap");
+
+html,
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #191919;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.carta-selva {
+  margin: 0 auto;
+  height: 130vh;
+  width: 80vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/******** Seccion de los platos ********/
+
+.platos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  background-color: #c8ffe0;
+  gap: 3em;
+  padding: 3em;
+  margin: 0px auto;
+  height: 100vh;
+  width: 60vw;
+}
+
+.plato {
+  display: flex;
+  height: 20em;
+  width: 25em;
+}
+
+.plato > img {
+  object-fit: cover;
+  object-position: center center;
+  filter: grayscale(0.4);
+}
+
+.carta-selva > h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3em;
+  color: #fff;
+  background-color: #cb5721;
+}
+
+/***********  Info platos ***************/
+
+.info {
+  display: flex;
+  flex-flow: column wrap;
+  color: #cb5721;
+  padding: 1.2em;
+}
+
+.info > h3 {
+  font-family: "Raleway", sans-serif;
+  margin: 0.001em;
+  color: #04364a;
+}
+
+.info > .precio {
+  color: #614bc3;
+  font-size: 3em;
+}
+
+.info > h2 {
+  color: #614bc3;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  margin: 0.001em;
+}
+
+.info > p {
+  color: #33bbc5;
+  font-family: "Raleway", sans-serif;
+  margin: 0.001em;
+}
+
+.info > input {
+  font-family: "Raleway", sans-serif;
+  border-radius: 0.1em;
+  border: none;
+  color: #cb5721;
+  margin-bottom: 0.3em;
+}
+
+.info > button {
+  font-family: "Raleway", sans-serif;
+  border-radius: 0.1em;
+  border: none;
+  color: #fff;
+  background-color: #c84b31;
+}
+
+/********* Boton return ********/
+.button-return {
+  color: #c84b31;
+  margin-top: 3em;
+  font-size: 16px;
+}
