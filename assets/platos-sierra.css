@@ -114,7 +114,14 @@ video {
 
 /********* Boton return ********/
 .button-return {
-  color: #c84b31;
-  margin-top: 3em;
-  font-size: 16px;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #c84b31;
+  color: #e9990e;
+}
+
+.button-return:hover {
+  color: #ffd609;
 }

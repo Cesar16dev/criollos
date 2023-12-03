@@ -75,12 +75,14 @@
           Por disposición oficial redujimos el número de mesas por lo que te recomendamos hacer reservación.Te recordamos que no podemos ingresar mas de 10 personas.Nos vemos pronto!
         </p>
         <form>
-          <label>Fecha de reserva: </label><input type="date">
+          <label>Ingrese su nombre de usuario: </label><input type="text" required>
           <br><br>
-          <label>Hora de reserva: </label><input type="time">
+          <label>Fecha de reserva: </label><input type="date" required>
+          <br><br>
+          <label>Hora de reserva: </label><input type="time" required>
           <br><br>
           <label>Grupo de personas: </label>
-          <select>
+          <select required>
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -90,8 +92,8 @@
             <option>7</option>
             <option>8</option>
           </select>
-          <br><br>
-          <input type="submit" value="Reservar Ahora">
+          <br><br><br>
+          <a class="reserva" href="reserva.html">Reserva Ahora</a>
         </form>
       </section>
     </article>
